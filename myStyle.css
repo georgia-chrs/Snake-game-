@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+
+
+table {
+  border-collapse: collapse; /* Συνένωση των κελιών */
+  border-spacing: 0; /* Αφαίρεση κενών μεταξύ των κελιών */
+  
+}
+
+td {
+  padding: 0; /* Κανένα εσωτερικό περιθώριο */
+  margin: 0; /* Κανένα εξωτερικό περιθώριο */
+  border: none; /* Χωρίς περίγραμμα */
+  
+}
+
+img {
+  display: block; /* Αφαίρεση περιθωρίου από εικόνες */
+}
+
+/* Επιπλέον ιδιότητες για παράδειγμα */
+.ex1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  
+}
+
+.ex2 {
+  position: absolute;
+  top: 60px;
+  left: 80px;
+  
+}
+
+header{
+  font-size: 50px;
+  margin: auto;
+ text-align: center;
+  margin-bottom: 20px;
+  background-color: rgb(5, 45, 15);
+  color: rgb(238, 238, 238);
+  border-radius: 30px;;
+
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+button{
+  background-color: rgb(5, 45, 15);
+  color: antiquewhite;
+  font-size: 30px;
+  border-radius: 30px;
+  margin-top: 10px;;
+  margin-left: 5px;
+
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+  cursor: pointer;
+  
+}
+
+#infoBox{
+  background-color:#2a6f30;
+  size: 60px;
+  text-align: center;
+  height: 600px;
+}
+section {
+  flex: 0 0 50%; /* Το section θα καταλαμβάνει το 70% του χώρου */
+  border: 1px solid #000;
+  padding: 10px;
+  background-color: #08560f;
+  border-radius: 20px;
+  
+}
+aside {
+  flex: 0 0 20%; /* Το aside θα καταλαμβάνει το 28% του χώρου */
+  padding: 20px;
+  background-color: #000000;
+  border: 1px solid #e9e1e1;
+  border-radius: 20px;
+  text-align: left;
+ 
+
+
+
+
+}
+.container {
+  display: flex;
+  justify-content: space-between; /* Διαχωρισμός των στοιχείων */
+  align-items: flex-start; /* Ευθυγράμμιση στο πάνω μέρος */
+  padding: 20px;
+  
+  
+}
+
+#RED{
+  flex: 0 0 50%; /* Το section θα καταλαμβάνει το 70% του χώρου */
+  border: 1px solid #000;
+  padding: 20px;
+  background-color: #222243;
+  height: 300px;
+  width: 100px;
+  
+
+
+
+}
+#WHITE{
+  flex: 0 0 50%; /* Το section θα καταλαμβάνει το 70% του χώρου */
+  border: 1px solid #000;
+  padding: 20px;
+  background-color: #112e42;
+  width: 100px;
+  height: 300px;;
+
+  
+  
+
+}
+.smallContainer{
+  display:inline-flex;
+  justify-content: space-between; /* Διαχωρισμός των στοιχείων */
+  align-items: flex-start; /* Ευθυγράμμιση στο πάνω μέρος */
+  padding: 30px;
+  margin-right: 80px;
+  text-align: center;
+
+}
+
+p{
+  color: #ccc;
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+

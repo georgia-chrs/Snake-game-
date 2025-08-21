@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="myStyle.css">
+<meta charset="UTF-8">
+<title>Φιδάκι και Σκάλες</title>
+<script src="game.js"></script>
+<script src="initBoard.js"></script>
+
+</head>
+<body onload=initBoard()>
+    <header>Snake Game</header>
+    
+    <div class="container">
+        <section>
+            <table  id="mainTable" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
+
+
+
+            </table >
+            <br><!---->
+        </section>
+    
+        <aside id="infoBox">
+            <button onclick="rollAndChange()">Change Position</button>
+
+            <div id="diceImage" style="display: inline-block; margin-left: 20px; margin-top: 20px;">
+                <img id="diceImg" src="imagesDice/1.png" height="80" width="80">
+            </div>
+
+            <br>
+            <p id="diceNumber">dice number is </p> 
+            <p id="Playes">Let's start with RED</p> 
+            <div class="smallContainer">
+                <section id="RED">
+                    <div id="REDImage" style="display: inline-block; margin-left: 20px; margin-top: 20px;">
+                        <img id="diceImg" src="imagesDice/redPawn.png" height="70" width="80">
+                   <p id="textRed">Player Red</p>
+                   
+                </section>
+                <aside id="WHITE">
+                    <div id="WHITEImage" style="display: inline-block; margin-left: 20px; margin-top: 20px;">
+                        <img id="diceImg" src="imagesDice/whitePawn.png" height="70" width="80">
+                    <p>Player White</p>
+                </aside>
+            </div>
+
+            <button onclick="newGame()">Set New Game</button>
+
+        </aside>
+    </div>
+    <!--changePosition(rollDice())-->
+    
+
+</body>
+
+
+</html>
+
+
