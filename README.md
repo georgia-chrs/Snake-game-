@@ -1,2 +1,2 @@
-# 3
+# Snake game with javascript
 
